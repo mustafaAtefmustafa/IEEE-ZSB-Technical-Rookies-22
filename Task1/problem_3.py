@@ -1,6 +1,3 @@
-import math
-
-
 def main():
     l = [1, 2, 5, 9]
     x = int(input())
