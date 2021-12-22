@@ -12,6 +12,8 @@ def count_sub_string(string, sub_string):
     while i < len(string):
         if string[i] == sub_string[start]:
             start += 1
+        else:
+            start = 0
         if start == len(sub_string):
             start = 0
             counter += 1
