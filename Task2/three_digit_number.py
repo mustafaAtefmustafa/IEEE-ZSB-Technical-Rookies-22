@@ -17,10 +17,10 @@ def main():
                 elif n2[i] == n1[j] and i != j:
                     
                     if hit[j] == 1:
-                        miss[i] = 1
+                        #miss[i] = 1
                         continue
                     else:
-                        miss[i] = 1
+                        miss[j] = 1
                         continue
                 else:
                     continue
