@@ -4,7 +4,7 @@ import random
 def main():
     hit = [0, 0, 0]
     miss = [0, 0, 0]
-    n1 = list(str(223))
+    n1 = list(str(random.randint(100, 999)))
     print(n1)   # Just for the sake of testing,,, can be removed.
     n2 = list(input("Enter a 3-digit number: "))
     while n2 != n1:
