@@ -3,6 +3,7 @@ def main():
     arr = []
     main_diagonal = 0
     other_diagonal = 0
+    
     for _ in range(n):
         arr.append(list(map(int, input().rstrip().split())))
 
