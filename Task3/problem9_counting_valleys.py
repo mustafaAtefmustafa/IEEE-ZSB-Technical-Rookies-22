@@ -10,7 +10,7 @@ def main():
     result = countingValleys(steps, path)
     print(result)
 
-
+# To be written in hackerRank.
 def countingValleys(steps, path):
     # Write your code here
     sea_level = 0
